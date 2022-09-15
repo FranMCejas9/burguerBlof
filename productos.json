@@ -1,0 +1,98 @@
+[
+    { 
+        "id": "1",
+        "img": "../img/menu/crispy.png",
+        "categoria": "Hamburguesa",
+        "producto":"Crispy",
+        "descripcion":  "Doble Carne,doble cheddar,cebolla crispy,huevo,barbacoa.",
+        "precio": "650"
+    },
+    { 
+        "id": "2",
+        "img": "../img/menu/doblenapolitano.png",
+        "categoria": "Hamburguesa",
+        "producto":"Doble cuarto de Libra",
+        "descripcion":  "Doble Carne,doble cheddar,cebolla en cubitos,ketchup.",
+        "precio": "650"
+    },
+    { 
+        "id": "3",
+        "img": "../img/menu/chimiburguer.png",
+        "categoria": "Hamburguesa",
+        "producto":"Blof",
+        "descripcion":  "Doble Carne,Queso Azul,cebolla caramelizada,alioli casero.",
+        "precio": "650"
+    },
+    { 
+        "id": "4",
+        "img": "../img/menu/wowcamole.png",
+        "categoria": "Hamburguesa",
+        "producto":"Classic",
+        "descripcion":  "Doble carne,doble cheddar,lechuga,tomate.",
+        "precio": "550"
+    },
+    { 
+        "id": "5",
+        "img": "../img/menu/oklahoma.jpg",
+        "categoria": "Hamburguesa",
+        "producto":"CheeseBurger",
+        "descripcion":"Un medallon de carne,doble cheddar.",
+        "precio": "550"
+    },
+    { 
+        "id": "6",
+        "img": "../img/menu/chimiburguer.png",
+        "categoria": "Hamburguesa",
+        "producto":"Criolla",
+        "descripcion":  "Doble Carne,doble cheddar,aros de cebolla,huevo frito,salsa criolla.",
+        "precio": "650"
+    },
+    { 
+        "id": "7",
+        "img": "../img/menu/bacon.png",
+        "categoria": "Hamburguesa",
+        "producto":"Especial",
+        "descripcion":  "Doble Carne,Queso cremoso,morron asado,huevo frito,cebolla caramelizada.",
+        "precio": "650"
+    },
+    { 
+        "id": "8",
+        "img": "../img/menu/empanadaCarne.jpg",
+        "categoria": "Empanada",
+        "producto":"Empanadas de Carne",
+        "descripcion":  "Empanadas de carne fritas. Precio por media docena",
+        "precio": "550"
+    },
+    { 
+        "id": "9",
+        "img": "../img/menu/papasVerdeo.jpg",
+        "categoria": "Acompañamiento",
+        "producto":"Papas fritas con cheddar y verdeo",
+        "descripcion":  "Bandejas de papas fritas con cheddar y verdeo.",
+        "precio": "450"
+    },
+    { 
+        "id": "10",
+        "img": "../img/menu/arosCebolla.jpg",
+        "categoria": "Acompañamiento",
+        "producto":"Aros de cebolla",
+        "descripcion":  "Aros de cebolla con salsa a eleccion",
+        "precio": "350"
+    },
+    { 
+        "id": "11",
+        "img": "../img/menu/pollofrito.png",
+        "categoria": "Acompañamiento",
+        "producto":"Pollo Frito",
+        "descripcion":  "5 piezas de pollo frito con salsa picante o alioli.",
+        "precio": "600"
+    },
+    { 
+        "id": "12",
+        "img": "../img/menu/papasFritas.jpg",
+        "categoria": "Acompañamiento",
+        "producto":"Papas Fritas",
+        "descripcion":  "Bandeja de papas fritas solas.",
+        "precio": "350"
+    }
+]
