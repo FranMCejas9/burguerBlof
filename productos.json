@@ -2,7 +2,7 @@
     { 
         "id": "1",
         "img": "../img/menu/crispy.png",
-        "categoria": "Hamburguesa",
+        "categoria": "Hamburguesas",
         "producto":"Crispy",
         "descripcion":  "Doble Carne,doble cheddar,cebolla crispy,huevo,barbacoa.",
         "precio": "650"
@@ -10,7 +10,7 @@
     { 
         "id": "2",
         "img": "../img/menu/doblenapolitano.png",
-        "categoria": "Hamburguesa",
+        "categoria": "Hamburguesas",
         "producto":"Doble cuarto de Libra",
         "descripcion":  "Doble Carne,doble cheddar,cebolla en cubitos,ketchup.",
         "precio": "650"
@@ -18,7 +18,7 @@
     { 
         "id": "3",
         "img": "../img/menu/chimiburguer.png",
-        "categoria": "Hamburguesa",
+        "categoria": "Hamburguesas",
         "producto":"Blof",
         "descripcion":  "Doble Carne,Queso Azul,cebolla caramelizada,alioli casero.",
         "precio": "650"
@@ -26,7 +26,7 @@
     { 
         "id": "4",
         "img": "../img/menu/wowcamole.png",
-        "categoria": "Hamburguesa",
+        "categoria": "Hamburguesas",
         "producto":"Classic",
         "descripcion":  "Doble carne,doble cheddar,lechuga,tomate.",
         "precio": "550"
@@ -34,7 +34,7 @@
     { 
         "id": "5",
         "img": "../img/menu/oklahoma.jpg",
-        "categoria": "Hamburguesa",
+        "categoria": "Hamburguesas",
         "producto":"CheeseBurger",
         "descripcion":"Un medallon de carne,doble cheddar.",
         "precio": "550"
@@ -42,7 +42,7 @@
     { 
         "id": "6",
         "img": "../img/menu/chimiburguer.png",
-        "categoria": "Hamburguesa",
+        "categoria": "Hamburguesas",
         "producto":"Criolla",
         "descripcion":  "Doble Carne,doble cheddar,aros de cebolla,huevo frito,salsa criolla.",
         "precio": "650"
@@ -50,7 +50,7 @@
     { 
         "id": "7",
         "img": "../img/menu/bacon.png",
-        "categoria": "Hamburguesa",
+        "categoria": "Hamburguesas",
         "producto":"Especial",
         "descripcion":  "Doble Carne,Queso cremoso,morron asado,huevo frito,cebolla caramelizada.",
         "precio": "650"
