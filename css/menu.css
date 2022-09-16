@@ -56,7 +56,7 @@ nav .nav-link{
 /* header start*/
 
 header{
-    background-image: url(../img/noticiasfondo.jpg);
+    background-image: url(../img/hamburger-ge14bab154_1920.jpg);
     background-position: center;
     background-size: cover;
     height: 40vh;
@@ -132,7 +132,78 @@ body{
     color: white;
 }
 /* header fin*/
+/* Carta */
 
+.carta{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carta .carousel{
+    width: 40%;
+    min-width: 350px;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+  }
+  
+  .carouselImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+  }
+  .carouselImg img{
+    min-width: 300px;
+  }
+  .carouselLeftArrow, .carouselRightArrow{
+    display: flex;
+    align-items: center;
+    font-size: clamp(1rem,2vw,4vw);
+  }
+  .carouselLeftArrow{
+    position: absolute;
+    left: 4%;
+    top: 50%;
+  }
+  .carouselRightArrow{
+    position: absolute;
+    right: 4%;
+    top: 50%;
+  }
+  .carouselLeftArrow i, .carouselRightArrow i{
+    color: rgba(255, 255, 255, 0.1);
+    transition: all 0.4s;
+  }
+  .carouselLeftArrow i:hover, .carouselRightArrow i:hover{
+    color: rgba(255, 255, 255, 1);
+    transition: all 0.4s;
+  }
+  
+  .botonCerrar{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: rgba(255, 255, 255, 1);
+    font-size: clamp(1rem,2vw,4vw);
+    transition: all 0.4s;
+  }
+  .botonCerrar:hover{
+    color: #f00;
+    transition: all 0.4s;
+  }
+  
+  .cerrarCarta{
+    display: none;
+  }
 
 /* menu  */
 .menu{

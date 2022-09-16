@@ -31,7 +31,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="../index.html">Burger<span>Blof</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler order-last" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,22 +42,15 @@
                         <a class="nav-link a1" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link a1" href="../pages/galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link a1 " href="../pages/menu.html">Menu</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link a1 active a1" aria-current="page" href="./noticias.html">Novedades</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link a1" href="./contacto.html">Contacto</a>
-                    </li>
                 </ul>
-                <form class="d-flex">
-
-                    <button class="btn btn-outline-success btnnav" type="submit">Subscribete</button>
-                </form>
+            </div>
+            <div class="buttonCarta">
+                <button class="btn btn-secondary">Ver Carta</button>
             </div>
         </div>
     </nav>
@@ -79,10 +72,27 @@
     </header>
     <!--header end-->
 
+<!-- Carta-->
+<section class="carta cerrarCarta">
+    <div class="botonCerrar">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="carousel">
+      <div class="carouselLeftArrow">
+        <i class="fa-solid fa-chevron-left"></i>
+      </div>
+      <div class="carouselImg">
+      </div>
+      <div class="carouselRightArrow">
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+    </div>
+  </section>
+  
     <!--Servicios start-->
     <section class="container">
         <h1 class="text-center textserv">Cartelera Semanal</h1>
-        <div class="row carta">
+        <div class="row cartaBody">
             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 car3">
                 <div class="card text-center" style="width: 18rem;">
                     <img src="../img/proximamente.jpg" class="card-img-top" alt="proximamente image">
@@ -182,7 +192,8 @@
         <P class="cread">2022 - Arrecifes</P>
     </footer>
     <!-- footer end-->
-
+    
+  <script src="../js/carta.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
