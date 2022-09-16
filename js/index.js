@@ -1,3 +1,17 @@
+
+const cartaImg = [
+    {
+        id: 1,
+        url: './img/menu/cartaPag1.webp'
+    },
+    {
+        id: 2,
+        url: './img/menu/cartaPag2.webp'
+    }
+]
+
+console.log(cartaImg)
+
 function cardIndex (el, num){
     document.querySelector('#menuIndex').innerHTML +=`
         <div class="col-lg-4 col-md-12 mb-4 " data-aos="fade-up">
@@ -44,6 +58,22 @@ function crearCardIndex(el){
     }
 }
 
+function cerrarCarta(){
+    document.querySelector(".botonCerrar").addEventListener('click',()=>{
+        document.querySelector('.carta').classList.add('cerrarCarta')
+    })
+}
+
+function verCarta(){
+    document.querySelector(".buttonCarta").addEventListener('click',()=>{
+        document.querySelector('.carta').classList.remove('cerrarCarta')
+        document.querySelector('.carouselImg').innerHTML = `
+        <img src="${cartaImg[0].url}"></img>
+        `
+        cerrarCarta()
+    })
+}
+verCarta()
 
 fetch('productos.json')
 .then(response => response.json())
