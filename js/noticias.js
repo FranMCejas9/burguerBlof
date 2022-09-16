@@ -26,6 +26,26 @@ document.querySelector('.filtros').addEventListener('mouseenter',()=>{
     })
 })
 
+function abrirSubMenu(){
+    /* Submenu en pc */
+    document.querySelector('.menuLink').addEventListener('mouseenter',()=>{
+        document.querySelector('#filtroCategoria').classList.remove('cerrarMenu')
+        document.querySelector('#filtroCategoria').addEventListener('mouseleave',()=>{
+            document.querySelector('#filtroCategoria').classList.add('cerrarMenu')
+        })
+    })
+
+    
+    /* Submenu en movil */
+    document.querySelector('.flechaCategorias').addEventListener('click',()=>{
+        document.querySelector('#filtroCategoria').classList.remove('cerrarMenu');
+        document.querySelector('.cerrarSubMenu').addEventListener('click',()=>{
+            document.querySelector('#filtroCategoria').classList.add('cerrarMenu')
+        })
+    })
+}
+abrirSubMenu();
+
 fetch ('../productos.json')
 .then(response => response.json())
 .then((data) =>{ 

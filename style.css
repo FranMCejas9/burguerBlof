@@ -72,6 +72,7 @@
 }
 #filtroCategoria a:hover{
   color: #df9215;
+  cursor: pointer;
 }
 
 .cerrarMenu{
@@ -84,16 +85,31 @@
 }
 .flechaCategorias{
   color: #FFF;
-  font-size: clamp(1rem,2vw,3vw);
+  font-size: clamp(1.5rem,2vw,3vw);
   padding: 5px;
 }
-
+.flechaCategorias:hover{
+  cursor: pointer;
+}
+.cerrarSubMenu{
+  display: none;
+}
 
 @media screen and (max-width: 992px) {
   #filtroCategoria{
-    top: 125px;
-    left: 25%;
+    transition: all 0.4s;
+    padding-top: 6%;
+    background-color: #191919;
+    width: 100vw;
+    height: 100%;
+    top: 0px;
+    left: 0px;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #filtroCategoria a{
+    color: #fff;
   }
   .buttonCarta{
     order: -1;
@@ -105,6 +121,21 @@
     width: 70%;
     text-align: start;
   }
+  .cerrarSubMenu{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    color: #df9215;
+    font-size: clamp(1.5rem,2vw,3vw);
+    transition: all 0.4s;
+  } 
+  .cerrarSubMenu:hover{
+    cursor: pointer;
+    color: #f00;
+    transition: all 0.4s;
+  }
+
 }
 /* nav fin */
 /* header start */

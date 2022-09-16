@@ -19,26 +19,27 @@ function generarCategorias(el){
 }
 
 
-function borrarSubMenu(){
-    document.querySelector('.flechaCategoriasCerrar').addEventListener('click',(event)=>{
-        document.querySelector('#filtroCategoria').classList.add('cerrarMenu')
-        event.target.classList.toggle("flechaCategorias")
-        document.querySelector('.flechaCategorias').classList.remove("flechaCategoriasCerrar")
-    })
-}
 
 function abrirSubMenu(){
-    document.querySelector('.flechaCategorias').addEventListener('click',(event)=>{
+    /* Submenu en pc */
+    document.querySelector('.menuLink').addEventListener('mouseenter',()=>{
         document.querySelector('#filtroCategoria').classList.remove('cerrarMenu')
+        document.querySelector('#filtroCategoria').addEventListener('mouseleave',()=>{
+            document.querySelector('#filtroCategoria').classList.add('cerrarMenu')
+        })
+    })
+
+    
+    /* Submenu en movil */
+    document.querySelector('.flechaCategorias').addEventListener('click',()=>{
+        document.querySelector('#filtroCategoria').classList.remove('cerrarMenu');
+        document.querySelector('.cerrarSubMenu').addEventListener('click',()=>{
+            document.querySelector('#filtroCategoria').classList.add('cerrarMenu')
+        })
     })
 }
 abrirSubMenu();
-document.querySelector('.menuLink').addEventListener('mouseenter',()=>{
-    document.querySelector('#filtroCategoria').classList.remove('cerrarMenu')
-    document.querySelector('#filtroCategoria').addEventListener('mouseleave',()=>{
-        document.querySelector('#filtroCategoria').classList.add('cerrarMenu')
-    })
-})
+
 
 
 
