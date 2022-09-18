@@ -9,6 +9,7 @@
 span{
     color: #FCA311;
 }
+
 /* nav start */
 .navbar {
   background-color: #000;
@@ -308,33 +309,6 @@ body{
     display: none;
   }
 
-  
-#filtroCategoria{
-    position: absolute;
-    background-color: #FFF;
-    width: auto;
-    height: auto;
-    border-radius: 0.3rem;
-    list-style: none;
-    padding: 0px;
-    z-index: 500;
-  }
-  
-  #filtroCategoria a{
-    color: #191919;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-size: 15px;
-  }
-  #filtroCategoria a:hover{
-    color: #df9215;
-  }
-  
-  .cerrarMenu{
-    display: none;
-  }
-  
 /* menu  */
 .menu{
     padding: 0;
