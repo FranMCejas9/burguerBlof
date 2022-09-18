@@ -98,6 +98,10 @@ span{
 }
 
 @media screen and (max-width: 992px) {
+  .nav-item{
+    width: 100%;
+    text-align: center;
+  }
   .filtros{
   flex-wrap: wrap;
   }
@@ -119,11 +123,12 @@ span{
     order: -1;
   }
   .menuLink{
-    width: 30%;
+    width: 52%;
+    text-align: end;
   }
   .flechaCategorias{
-    width: 70%;
-    text-align: start;
+    width: 47%;
+    text-align: center;
   }
   .cerrarSubMenu{
     display: flex;
